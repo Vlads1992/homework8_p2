@@ -1,0 +1,40 @@
+body {
+    font-family: inherit;
+    font-family: 'Neue Hans Kendrick Regular';
+}
+
+.container--lg {
+    max-width: 1200px;
+}
+
+.main__description p {
+    color: #1d1d1d;
+    font-family: 'Neue Hans Kendrick Regular';
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-left: 28px;
+    padding-right: 27px;
+}
+
+h3 {
+    padding-top: 30px;
+    
+    padding-left: 28px;
+    color: #818181;
+    font-family: 'Neue Hans Kendrick Regular';
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+
+

@@ -1,0 +1,116 @@
+.main {
+
+* {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    background-color: #E2E7EC;
+    padding-top: 91px;
+    
+    &__post1 {
+        background-image: url('../img/Layer8.jpg');
+        
+    }
+
+    &__post1, &__post2 {
+        margin-bottom: 22px;
+    }
+
+
+    &__post2, &__post3, &__post4, &__post5 {
+        
+        position: relative;
+        
+    }
+
+    &__post4 h3 {
+        visibility: hidden;
+    }
+
+
+    &__post1 {
+        width: 64%;
+        margin-right: 20px;
+        min-height: 494px;
+        
+        .main__description {
+            position: absolute;
+            left: 10px;
+            bottom: 20px;
+            background-color: rgba(255,255,255, 0);
+            z-index: 1;
+        }
+
+        p {
+            color: white;
+            font-size: 30px;
+            line-height: 36px;
+        }
+
+        h3 {
+            opacity: 0.5;
+            color: white;
+        }
+    }
+
+    .gradient {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .gradient:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+        
+    }
+
+    &__post2, &__post3, &__post4, &__post5 {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        min-height: 541px;
+        
+    }
+
+    &__post-small {
+        min-height: 543px;
+        .main__image {
+            max-height: 251px;
+            height: 100%;
+        }
+    }
+
+    &__post3, &__post4, &__post5 {
+        
+        margin-bottom: 79px;
+        
+    }
+
+    
+    &__description {
+        background-color: white;
+        position: relative;
+        flex: 1;
+    }
+
+    &__author {
+        margin-bottom: 25px;
+        margin-left: 30px;
+        width: 54px;
+        height: 54px;
+        margin-top: auto;
+    }
+
+    &__post3, &__post4 {
+        padding-right: 20px;
+    }
+
+
+}
