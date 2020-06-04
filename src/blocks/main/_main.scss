@@ -115,5 +115,22 @@
         padding-right: 20px;
     }
 
+    &__loader {
+        padding-bottom: 100px;
+        
+    }
+
+    &__loading {
+        p {
+            color: #99a5b0;
+            padding-left: 15px;
+            font-size: 13px;
+            font-weight: 800;
+            line-height: 30px;
+            text-transform: uppercase;
+        }
+        
+    }
+
 
 }
